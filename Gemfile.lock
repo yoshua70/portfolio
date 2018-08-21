@@ -58,9 +58,9 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll
+  jekyll (~> 3.8.3)
   jekyll-watch
-  wdm (~> 0.1.1)
+  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.16.3
