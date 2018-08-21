@@ -1,0 +1,13 @@
+
+# Site settings
+title: Yoshua Code
+email: allidjinoumichee@outlook.fr
+description: >- # this means to ignore newlines until "baseurl:"
+  My personal portfolio.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: allidjinou
+github_username:  yoshua70
+
+# Build settings
+markdown: kramdown
