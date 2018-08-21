@@ -1,3 +1,5 @@
 source "https://rubygems.org"
-gem "github-pages", "104"
-gem 'json', '~> 1.8.6'
+
+gem 'jekyll'
+gem 'wdm', '~> 0.1.1' if Gem.win_platform?
+gem 'jekyll-watch'
