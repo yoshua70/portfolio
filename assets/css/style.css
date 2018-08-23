@@ -114,8 +114,15 @@ body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   padding-right: 0.5rem;
-  padding-left: 0.5rem
+  padding-left: 0.5rem;
+  width: 80%;
 }
+@media (min-width: 768px) {
+  .input {
+    width: 50%;
+  }
+}
+
 
 .filling_case {
   margin-bottom: 0.5rem;
