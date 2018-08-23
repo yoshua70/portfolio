@@ -111,6 +111,10 @@ body {
   font-size: 1.2rem;
   font-weight: 300;
   margin-bottom: 0.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem
 }
 
 .filling_case {
@@ -130,9 +134,10 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 500;
 }
-.btn_submit--click {
-  border: 5px solid #e63946;
+.btn_submit:hover {
   background-color: #192d49;
+  color: #fff;
+  border: 2px solid #e63946;
 }
 
 .link {
@@ -144,4 +149,9 @@ body {
 .link:hover {
   color: #fff;
   border: none;
+}
+
+.active {
+  border-bottom: 1px solid #e63946;
+  color: #929191;
 }

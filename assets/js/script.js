@@ -17,3 +17,14 @@ main.style.paddingRight = mainPadLeftStr;
 btnSubmit.addEventListener("click", function() {
   btnSubmit.classList.add("btn_submit--click");
 }); */
+
+var navLinks = document.querySelectorAll(".nav-link");
+
+var pageTitle = document.title.replace(" | YoshuaPortfolio", ""); 
+for(var i = 0; i < navLinks.length; i++) {
+  if(navLinks[i].textContent === pageTitle || navLinks[i].textContent === pageTitle || navLinks[i].textContent === pageTitle) {
+    navLinks[i].classList.add("active");
+  } else {
+    navLinks[i].classList.remove("active");
+  }
+}
