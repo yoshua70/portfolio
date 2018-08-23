@@ -1,6 +1,8 @@
 var navItem = document.querySelector(".nav-item");
 var navLink = document.querySelector(".nav-link");
 var main = document.querySelector(".main");
+var btnSubmit = document.querySelector(".btn_submit");
+
 
 function resize() {
   var navItemWidth = parseFloat(window.getComputedStyle(navItem).getPropertyValue("width"));
@@ -12,3 +14,7 @@ function resize() {
 }
 
 window.onresize = resize();
+/*
+btnSubmit.addEventListener("click", function() {
+  btnSubmit.classList.add("btn_submit--click");
+}); */

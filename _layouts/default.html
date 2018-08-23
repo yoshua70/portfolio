@@ -2,8 +2,10 @@
 <html>
   {% include head.html %}
   <body>
-    {{ content }}
-
-    <script src="/assets/js/script.js"></script>
+    {% include navBar.html %}
+    <main class="main">
+      {{ content }}
+    </main>
+    {% include footer.html %}
   </body>
 </html>
