@@ -45,6 +45,9 @@ body {
   font-size: 1.2rem;
   text-decoration: none;
 }
+.nav-link:hover {
+  border-bottom: 1px solid #e63946;
+}
 
 .main {
   z-index: 0;
@@ -62,9 +65,15 @@ body {
   background-color: #e63946;
   color: #fff;
   text-decoration: none;
+  font-weight: 500;
 }
 .home_button:first-of-type {
   margin-right: 1rem;
+}
+.home_button:hover {
+  background-color: #192d49;
+  color: #fff;
+  border: 2px solid #e63946;
 }
 
 .footer {
@@ -80,11 +89,11 @@ body {
   color: #929191;
 }
 
-.home_h1, .about_h1, .blog_h1 {
+.home_h1, .about_h1, .contact_h1 {
   font-size: 3rem;
   font-weight: 500;
 }
-.home_p, .about_p, .blog_p {
+.home_p, .about_p, .contact_p {
   font-size: 1.2rem;
   font-weight: 300;
   color: #929191;
@@ -124,4 +133,15 @@ body {
 .btn_submit--click {
   border: 5px solid #e63946;
   background-color: #192d49;
+}
+
+.link {
+  color: #e63946;
+  text-decoration: none;
+  border-bottom: 2px solid #e63946;
+  padding-bottom: 0.1rem;
+}
+.link:hover {
+  color: #fff;
+  border: none;
 }
