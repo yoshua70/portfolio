@@ -16,6 +16,7 @@ body {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 100px auto 100px;
   background-color: #1d3557;
+  overflow-y: hidden;
 }
 
 .nav {
