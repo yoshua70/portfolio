@@ -18,7 +18,6 @@ body {
   background-color: #1d3557;
   overflow-y: hidden;
 }
-
 .nav {
   z-index: 1;
   grid-column: 1/7;

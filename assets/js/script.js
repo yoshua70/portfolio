@@ -28,3 +28,12 @@ for(var i = 0; i < navLinks.length; i++) {
     navLinks[i].classList.remove("active");
   }
 }
+
+mainHeight = Number(window.getComputedStyle(main).getPropertyValue("height").replace("px", ""));
+
+if(mainHeight > screen.height) {
+  document.querySelector("body").style.overflowY = "scroll";
+}
+
+console.log(mainHeight, screen.height);
+
