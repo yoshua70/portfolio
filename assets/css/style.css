@@ -146,6 +146,7 @@ body {
   background-color: #192d49;
   color: #fff;
   border: 2px solid #e63946;
+  cursor: pointer;
 }
 
 .link {
