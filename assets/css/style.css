@@ -21,30 +21,6 @@ body {
 }
 /* /Basic style */
 
-/* General style */
-.p--special {
-  font-weight: 500;
-  font-size: 1.4rem;
-  color: #fff;
-}
-
-.link {
-  color: #e63946;
-  text-decoration: none;
-  border-bottom: 2px solid #e63946;
-  padding-bottom: 0.1rem;
-}
-.link:hover {
-  color: #fff;
-  border: none;
-}
-
-.active {
-  border-bottom: 1px solid #e63946;
-  color: #929191;
-}
-/* /General style */
-
 /* Navbar style */
 .nav {
   z-index: 1;
@@ -195,3 +171,27 @@ body {
     grid-row: 2/3;
   }
 }
+
+/* General style */
+.p--special {
+  font-weight: 500;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.link {
+  color: #e63946;
+  text-decoration: none;
+  border-bottom: 2px solid #e63946;
+  padding-bottom: 0.1rem;
+}
+.link:hover {
+  color: #fff;
+  border: none;
+}
+
+.active {
+  border-bottom: 1px solid #e63946;
+  color: #929191;
+}
+/* /General style */
