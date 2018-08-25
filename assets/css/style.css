@@ -17,7 +17,6 @@ body {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 100px auto 100px;
   background-color: #1d3557;
-  overflow-y: hidden;
 }
 /* /Basic style */
 
@@ -58,7 +57,7 @@ body {
 .main {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  grid-column: 1/5;
+  grid-column: 1/7;
   grid-row: 2/3;
   color: #fff;
 }
@@ -169,6 +168,9 @@ body {
   .main {
     grid-column: 1/5;
     grid-row: 2/3;
+  }
+  body {
+    overflow-y: hidden;
   }
 }
 
