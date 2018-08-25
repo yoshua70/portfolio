@@ -80,7 +80,6 @@ body {
 
 /* Main style */
 .main {
-  z-index: 0;
   padding-top: 2rem;
   padding-bottom: 2rem;
   grid-column: 1/5;
@@ -101,6 +100,17 @@ body {
   margin-top: 2rem;
 }
 /* /Main style */
+
+/* Icon style */
+.icon--big {
+  font-size: 5rem;
+  color: #e63946;
+}
+.icon {
+  size: 1.5rem;
+  color: #e63946;
+}
+/* /Icon style */
 
 /* Buttons style */
 .home_button {
@@ -175,3 +185,13 @@ body {
   color: #929191;
 }
 /* /Footer style */
+
+@media (min-width: 768px) {
+  .input {
+    width: 100%;
+  }
+  .main {
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+}
